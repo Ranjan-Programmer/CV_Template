@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Roboto", sans-serif
+}
+body{
+    background-color: whitesmoke;
+}
+#main{
+    display: flex;
+}
+#left{
+    margin: 15px;
+    background-color: white;
+    width: 31%;
+    position: relative;
+    box-shadow: 0px 0px 10px 4px rgba(204,204,204,0.75);
+}
+#intro{
+    background-image: url(avatar.jpg);
+    background-size:cover;
+    max-width: 300%;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+#intro h2{
+    position: relative;
+    top: 260px;
+    left: 20px;
+}
+#left p{
+    padding: 10px 20px;
+    color: gray;
+}
+#left i{
+    margin-right: 15px;
+}
+.colorMe{
+    color: darkcyan;
+}
+.maxSize{
+    margin: 0px 20px;
+    color: lightgray;
+}
+.change{
+    padding: 10px 0px 10px 20px;
+}
+#left h4{
+    color: grey;
+}
+.changeSize{
+    font-size: 14px;
+}
+.outer{
+    background: whitesmoke;
+    width: 90%;
+    height: 15px;
+    border-radius: 100px;
+    margin: 5px 20px;
+}
+.ad{
+    width: 90%;
+}
+.pg{
+    width:80%;
+}
+.il{
+    width: 75%;
+}
+.md{
+    width:50%;
+}
+.inner{
+    background-color: darkcyan;
+    height: 15px;
+    border-radius: 100px;
+    text-align: center;
+    color: white;
+}
+.outerOne{
+    background: whitesmoke;
+    width: 90%;
+    height: 25px;
+    border-radius: 100px;
+    margin: 5px 20px;
+}
+.innerOne{
+    background-color: darkcyan;
+    height: 25px;
+    border-radius: 100px;   
+}
+.sp{
+    width: 50%;
+}
+.ge{
+    width: 25%;
+}
+.workExperience{
+    background-color: white;
+    width: 850px;
+    margin: 15px 15px 15px 0px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px 4px rgba(204,204,204,0.75);
+}
+.workExperience h1{
+    padding: 10px 0px ;
+    color: grey;
+}
+.workExperience i{
+    margin-right: 20px;
+}
+.workExperience h3{
+    margin: 20px 20px;
+    color: grey;
+}
+.calender{
+    color: darkcyan;
+}
+.workExperience h4{
+    color: darkcyan;
+    margin: 15px 20px;
+}
+.workExperience p{
+    margin: 15px 20px;
+}
+.workExperience span{
+    background-color: darkcyan;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+footer{
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 3px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul{
+    display: flex;
+    margin-left: 46%;
+}
+footer ul li a:hover{
+    color: lightgrey;
+}
+.gap{
+    margin-top: 20px;
+}
